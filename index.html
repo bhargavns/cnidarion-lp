@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cnidarion Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="tile" style="height: fit-content">
+      <div class="container">
+        <h1 class="title" id="demo" style="padding-top: 10%"></h1>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h3 class="mission">
+              We help founders build their software with simple textual prompts!
+            </h3>
+            <h4 class="start">Let's get started with your product.</h4>
+            <button class="btn btn-primary">Try It Out! (COMING SOON)</button>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img
+              src="assets/p2-im.svg"
+              alt="Software illustration"
+              class="illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TILE 2 Starts HERE -->
+
+    <div class="tile2" style="height: fit-content">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="assets/Cnidarion Infographic.png"
+            alt="Software illustration"
+            class="illustration"
+          />
+        </div>
+        <div class="col-md-5" style="margin: 1em">
+          <h5
+            class="product-pitch"
+            style="
+              text-align: left;
+              margin-bottom: 1em;
+              margin-top: 1em;
+              font-size: 2em;
+            "
+          >
+            Building software does not have to be hard, time-consuming, or
+            expensive. With the power of our neuro-symbolic AI model, we can
+            help you go from idea to functioning prototype in less than a day.
+            <br />
+          </h5>
+
+          <!-- FAQ Accordion -->
+          <div class="accordion" id="faqAccordion">
+            <!-- QUESTION 1 -->
+            <div class="card">
+              <div
+                class="card-header"
+                id="headingOne"
+                style="background-color: #ea753b"
+              >
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                    style="color: white"
+                  >
+                    How does it work?
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#faqAccordion"
+              >
+                <div class="card-body">
+                  Cnidarion currently makes API calls to GPT-4 to generate its
+                  code. The code is then run on a server and the output is sent
+                  back to the user. We are currently working on a more efficient
+                  way to generate code and run it on the server. You will see
+                  that your website or application gets rendered in real-time as
+                  you type out your prompts. The more prompts you give, the more
+                  detailed your website or application will be.
+                </div>
+              </div>
+            </div>
+
+            <!-- QUESTION 2 -->
+            <div class="card">
+              <div
+                class="card-header"
+                id="headingTwo"
+                style="background-color: #ea753b"
+              >
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                    style="color: white"
+                  >
+                    How does this help my business?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#faqAccordion"
+              >
+                <div class="card-body">
+                  Cnidarion is a multi-purpose tool. You have the freedom to use
+                  it as a way of building your software from scratch,
+                  prototyping based on market needs, or making quick changes to
+                  address customer needs. It is a cost and time effective way to
+                  test out new ideas and see how they would look in real-time.
+                </div>
+              </div>
+            </div>
+
+            <!-- QUESTION 3 -->
+            <div class="card">
+              <div
+                class="card-header"
+                id="headingThree"
+                style="background-color: #ea753b"
+              >
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style="color: white"
+                  >
+                    How much does it cost?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#faqAccordion"
+              >
+                <div class="card-body">
+                  We are currently in the beta phase and are offering our
+                  services for free. We will be launching a paid version soon
+                  with more features and a more efficient way of generating
+                  code. Our advanced neuro-symbolic architecture will offer a
+                  more detailed and accurate output. We will also be offering
+                  customer support and a more user-friendly interface. Until
+                  then, enjoy our free version and let us know how we can
+                  improve.
+                </div>
+              </div>
+            </div>
+
+            <!-- QUESTION 4 -->
+            <div class="card" style="color: white">
+              <div
+                class="card-header"
+                id="headingThree"
+                style="background-color: #ea753b"
+              >
+                <h5>
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style="color: white"
+                  >
+                    Is there a limit on the number of prompts I can give?
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#faqAccordion"
+              >
+                <div class="card-body">
+                  Yes, to ensure that our servers are not overloaded, we have a
+                  limit on the number of prompts you can give. All users may
+                  give up to 10 prompts per hour. We are currently working to
+                  increase this limit and will keep you updated on our progress.
+                  However, we encourage you to use the prompts wisely and give
+                  as much detail as possible in each prompt.
+                </div>
+              </div>
+            </div>
+            <!-- Add more questions as needed -->
+          </div>
+
+          <!-- FAQ Accordion Ends Here -->
+
+          <h2 class="mission">Meet our Team</h2>
+          <div class="container">
+            <!-- Team Member 1 -->
+            <div class="row" style="margin-top: 2em; margin-bottom: 2em">
+              <div class="col-md-6">
+                <img
+                  src="assets/Tyler.jpeg"
+                  alt="Tyler Hollenbach"
+                  class="team-member"
+                />
+              </div>
+              <div class="col-md-6">
+                <h3 class="team-member-name">Tyler Hollenbach</h3>
+                <p class="team-member-bio">
+                  Tyler is a Colorado native and an experienced leader in
+                  entrepreneurial capacity development. He brings over a decade
+                  of experience in strategic and operational consulting,
+                  financial and managerial accounting, and real estate,
+                  hospitality, and tourism development. He has a degree in
+                  Accounting from the University of San Diego and will complete
+                  his JD at the University of Colorado Law School in May of
+                  2024.
+                </p>
+              </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="row" style="margin-top: 2em; margin-bottom: 2em">
+              <div class="col-md-6">
+                <img
+                  src="assets/Henry Coote.webp"
+                  alt="Henry Coote"
+                  class="team-member"
+                />
+              </div>
+              <div class="col-md-6">
+                <h3 class="team-member-name">Henry Coote</h3>
+                <p class="team-member-bio">
+                  Henry is a current MBA student at CU Boulder, Leeds School of
+                  Business with a focus on Entrepreneurship and Finance. He
+                  brings over 7 years of experience in sales and marketing.
+                  During his MBA program he has spent time immersing himself in
+                  the Colorado Startup Ecosystem, consulting startups and
+                  interning with Venture Capital companies.
+                </p>
+              </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="row" style="margin-top: 2em; margin-bottom: 2em">
+              <div class="col-md-6">
+                <img
+                  src="assets/Bhargav.jpeg"
+                  alt="Tyler Hollenbach"
+                  class="team-member"
+                />
+              </div>
+              <div class="col-md-6">
+                <h3 class="team-member-name">Bhargav Shandilya</h3>
+                <p class="team-member-bio">
+                  Bhargav has a degree in Computer Science from the University
+                  of Colorado and is currently pursuing his PhD in AI at the
+                  University of Colorado Boulder. Having worked as a software
+                  engineer, he is passionate about integrating AI into the
+                  software development process. He has experience in building
+                  and deploying AI models as well as web/mobile applications,
+                  and is excited to bring his expertise to Cnidarion.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TILE 3 Starts HERE : CONTACT US-->
+    <div class="tile3" style="height: fit-content">
+      <div class="container">
+        <h2 class="mission">Contact Us</h2>
+        <form action="submit.php" method="post" style="padding-bottom: 10%">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer style="background-color: #2a2c34">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p style="text-align: center; color: white">
+              &copy; 2024 Cnidarion. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="script.js"></script>
