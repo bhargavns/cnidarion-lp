@@ -106,11 +106,15 @@ body, html {
 }
 
 .team-member {
-    width: 250px; /* Set the width */
-    height: 250px; /* Set the height */
+    width: 230px; /* Set the width */
+    height: 230px; /* Set the height */
     object-fit: cover;
 }
 
 .team-member:hover {
     transform: scale(1.1);
+}
+
+.team-member-bio {
+    font-size: 0.8em;
 }
